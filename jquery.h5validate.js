@@ -193,6 +193,8 @@
 
 				options = options || {};
 
+				$this.trigger('formValidate', {settings: $.extend(true, {}, settings)});
+
 				// Make sure we're not triggering handlers more than we need to.
 				$this.undelegate(settings.allValidSelectors,
 					'.allValid', getValidity);
