@@ -11,6 +11,13 @@
  * Developed under the sponsorship of RootMusic, Zumba Fitness, LLC, and Rese Property Management
  */
 
+/*
+ *
+ * This fork contains features and fixes by Joel Purra http://joelpurra.com/
+ * https://github.com/joelpurra/h5Validate
+ *
+ */
+
 /*global jQuery, window, console */
 (function ($) {
 	'use strict';
